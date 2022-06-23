@@ -6,5 +6,5 @@ public class HomePage {
     public HomePage() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
-// bu bir yorum satırıdır (emre)
+
 }
