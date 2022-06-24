@@ -148,4 +148,8 @@ public class ReusableMethods {
 
         return element;
     }
+    public void anaSayfayaGit(){
+        Driver.getDriver().get(ConfigReader.getProperty("tradylinn"));
+    }
+
 }
