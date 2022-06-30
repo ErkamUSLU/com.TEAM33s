@@ -44,8 +44,8 @@ public class CrossDriver {
     }
     public static void closeDriver(){
         if (driver!=null){ // driver'a deger atanmissa
-            //driver.close();
-            //driver=null;
+            driver.close();
+            driver=null;
         }
     }
 }
