@@ -1,5 +1,13 @@
 package tests;
 
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import pages.HomePage;
+import utilities.ConfigReader;
+import utilities.Driver;
+
 public class US021 {
     @Test
     public void test21() throws InterruptedException {

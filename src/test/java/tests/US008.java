@@ -23,7 +23,8 @@ public class US008 extends TestBaseRapor {
     HomePage homePage = new HomePage();
 
 
-    @Test     public void test01() throws InterruptedException {
+    @Test
+    public void test01() throws InterruptedException {
         extentTest = extentReports.createTest("Vendor Manage Stock Checkbox'ına gider ", " Checkbox'ın seçili olduğunu doğrular");
         ReusableMethods.anaSayfayaGit();
         extentTest.info("Anasayfaya gidildi");
