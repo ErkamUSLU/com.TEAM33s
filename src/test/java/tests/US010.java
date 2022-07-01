@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
+import org.testng.annotations.Test;
 import pages.HomePage;
 import utilities.Driver;
 import utilities.ReusableMethods;
@@ -12,6 +13,7 @@ import java.util.List;
 
 public class US010 {
     HomePage homePage = new HomePage();
+    @Test
     public void US10_TC01() {
         ReusableMethods.clickWithJS(homePage.AttributesButton); // Attributes başlığına tıklar
         String expectedAttributeTitle= "Attributes"; //Beklenen ATtributes başlığındaki yazı

@@ -1,5 +1,12 @@
 package tests;
 
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
+import org.testng.annotations.Test;
+import pages.HomePage;
+import utilities.ConfigReader;
+import utilities.Driver;
+
 public class US019 {
     @Test
     public void test19() throws InterruptedException {
@@ -29,3 +36,4 @@ public class US019 {
         Driver.closeDriver();
 
     }
+}
